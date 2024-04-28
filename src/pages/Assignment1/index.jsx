@@ -50,22 +50,27 @@ function Assignment1() {
 
   return (
     <>
-      <div className="frame" style={{ maxWidth: `${frameMaxWidth}px` }}>
-        <textarea
-          className="text-field"
-          disabled={textareaState.disabled}
-          ref={textField}
-          onChange={handleTextFieldResize}
-          style={{ height: textareaState.height }}
-        ></textarea>
-        <ul className="button-list">
-          <li>
-            <button onClick={handleTextareaDisabled}>Button1</button>
-          </li>
-          <li>
-            <button onClick={handleFrameWidth}>Button2</button>
-          </li>
-        </ul>
+      <div className="page-container">
+        <div
+          className="page-content frame"
+          style={{ maxWidth: `${frameMaxWidth}px` }}
+        >
+          <textarea
+            className="text-field"
+            disabled={textareaState.disabled}
+            ref={textField}
+            onChange={handleTextFieldResize}
+            style={{ height: textareaState.height }}
+          ></textarea>
+          <ul className="button-list">
+            <li>
+              <button onClick={handleTextareaDisabled}>Button1</button>
+            </li>
+            <li>
+              <button onClick={handleFrameWidth}>Button2</button>
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );

@@ -25,6 +25,10 @@ const routes = [
         path: pagesName.assignment1,
         lazy: getLazyComponent("./pages/Assignment1"),
       },
+      {
+        path: pagesName.assignment2,
+        lazy: getLazyComponent("./pages/Assignment2"),
+      },
     ],
   },
 ];
