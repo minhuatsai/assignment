@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import "./index.scss";
 
 function Assignment2() {
   const [buttonsState, setButtonsState] = useState({
