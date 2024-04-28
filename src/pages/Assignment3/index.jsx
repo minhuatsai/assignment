@@ -64,10 +64,8 @@ function Assignment3() {
             </li>
             <li>
               How to optimize this snippet?
-              <p>
-                Answer : 將generator 改為使用 async / await的方式 <br />
-                <pre>{getOptimize()}</pre>
-              </p>
+              <p>Answer : 將generator 改為使用 async / await的方式</p>
+              <pre>{getOptimize()}</pre>
             </li>
           </ul>
         </div>
