@@ -1,0 +1,16 @@
+.assignment3-list {
+  list-style-type: decimal;
+  max-width: 580px;
+  word-break: break-word;
+
+  > li {
+    > p {
+      color: #ef9090;
+
+      pre {
+        background-color: #f7f7f7;
+        color: black;
+      }
+    }
+  }
+}
